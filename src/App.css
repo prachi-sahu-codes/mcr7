@@ -17,6 +17,7 @@ h2 {
 .card-list {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 2rem;
   margin: 2rem;
 }

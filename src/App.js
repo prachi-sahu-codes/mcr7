@@ -10,8 +10,8 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<Continent />} />
-        <Route path="/:country" element={<Country />} />
-        <Route path="/:destination" element={<Destinations />} />
+        <Route path="/continent/:continent" element={<Country />} />
+        <Route path="/country/:destination" element={<Destinations />} />
         <Route path="/destination/:detail" element={<DestinationDetail />} />
       </Routes>
     </div>
