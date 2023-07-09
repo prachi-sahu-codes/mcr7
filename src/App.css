@@ -45,3 +45,16 @@ h2 {
   color: #fff;
   background-color: rgba(34, 34, 34, 0.47);
 }
+
+.card-flex {
+  display: flex;
+  gap: 2rem;
+  width: 900px;
+  margin: auto;
+  text-align: left;
+}
+
+p {
+  font-size: 1.1rem;
+  padding: 0.5rem;
+}

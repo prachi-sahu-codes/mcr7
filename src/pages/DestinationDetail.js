@@ -15,10 +15,28 @@ export const DestinationDetail = () => {
   return (
     <div>
       <h1>{findDestination.name}</h1>
-      <div>
+      <div className="card-flex">
         <img src={findDestination.image} alt=" pic" className="card-img" />
         <div>
-          <strong>description:{findDestination.description}</strong>
+          <p>
+            <strong>Description:</strong>
+            {findDestination.description}
+          </p>
+          <p>
+            <strong>ratings:</strong> {findDestination.ratings}
+          </p>
+          <p>
+            <strong>reviews:</strong> {findDestination.reviews}
+          </p>
+          <p>
+            <strong>ticketPrice:</strong> {findDestination.ticketPrice}
+          </p>
+          <p>
+            <strong>website:</strong> {findDestination.website}
+          </p>
+          <p>
+            <strong>location:</strong> {findDestination.location}
+          </p>
         </div>
       </div>
     </div>
