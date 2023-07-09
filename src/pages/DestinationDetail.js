@@ -14,31 +14,31 @@ export const DestinationDetail = () => {
 
   return (
     <div>
-      <h1>{findDestination.name}</h1>
+      <h1>{findDestination?.name}</h1>
       <div className="card-flex">
-        <img src={findDestination.image} alt=" pic" className="card-img" />
+        <img src={findDestination?.image} alt=" pic" className="card-img" />
         <div>
           <p>
             <strong>Description:</strong>
-            {findDestination.description}
+            {findDestination?.description}
           </p>
           <p>
-            <strong>Ratings:</strong> {findDestination.ratings}
+            <strong>Ratings:</strong> {findDestination?.ratings}
           </p>
           <p>
-            <strong>Reviews:</strong> {findDestination.reviews}
+            <strong>Reviews:</strong> {findDestination?.reviews}
           </p>
           <p>
-            <strong>Location:</strong> {findDestination.location}
+            <strong>Location:</strong> {findDestination?.location}
           </p>
           <p>
-            <strong>Opening hours:</strong> {findDestination.openingHours}
+            <strong>Opening hours:</strong> {findDestination?.openingHours}
           </p>
           <p>
-            <strong>TicketPrice:</strong> {findDestination.ticketPrice}
+            <strong>TicketPrice:</strong> {findDestination?.ticketPrice}
           </p>
           <p>
-            <strong>Website:</strong> {findDestination.website}
+            <strong>Website:</strong> {findDestination?.website}
           </p>
         </div>
       </div>
