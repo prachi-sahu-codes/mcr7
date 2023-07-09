@@ -1,7 +1,15 @@
 import "./App.css";
+import { Route, Routes } from "react-router";
+import { Home } from "./pages/Home";
 
 function App() {
-  return <div className="App">hello ready for mcr7</div>;
+  return (
+    <div className="App">
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </div>
+  );
 }
 
 export default App;
