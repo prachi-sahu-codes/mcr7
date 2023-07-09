@@ -23,19 +23,22 @@ export const DestinationDetail = () => {
             {findDestination.description}
           </p>
           <p>
-            <strong>ratings:</strong> {findDestination.ratings}
+            <strong>Ratings:</strong> {findDestination.ratings}
           </p>
           <p>
-            <strong>reviews:</strong> {findDestination.reviews}
+            <strong>Reviews:</strong> {findDestination.reviews}
           </p>
           <p>
-            <strong>ticketPrice:</strong> {findDestination.ticketPrice}
+            <strong>Location:</strong> {findDestination.location}
           </p>
           <p>
-            <strong>website:</strong> {findDestination.website}
+            <strong>Opening hours:</strong> {findDestination.openingHours}
           </p>
           <p>
-            <strong>location:</strong> {findDestination.location}
+            <strong>TicketPrice:</strong> {findDestination.ticketPrice}
+          </p>
+          <p>
+            <strong>Website:</strong> {findDestination.website}
           </p>
         </div>
       </div>
