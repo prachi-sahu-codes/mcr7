@@ -15,5 +15,15 @@ export const DestinationDetail = () => {
 
   console.log(findDestination);
 
-  return <div>DestinationDetail {detail}</div>;
+  return (
+    <div>
+      <h1>{findDestination.name}</h1>
+      <div>
+        <img src={findDestination.image} alt=" pic" className="card-img" />
+        <div>
+          <strong>description:{findDestination.description}</strong>
+        </div>
+      </div>
+    </div>
+  );
 };
